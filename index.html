@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Conference Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Future is Now</h1>
+      <h2>School of Media and IT Mini Conference in AI</h2>
+      <nav>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#key-topic">Key Topic</a></li>
+          <li><a href="#timetable">Timetable</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#registration">Registration</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h2>Introduction</h2>
+        <p>
+          Explore the diverse applications of AI, the challenges and
+          opportunities that come with its development, and how it can be
+          leveraged to make a positive impact on society. We look forward to
+          engaging in meaningful conversations that will further the progress of
+          AI and its potential to shape the future.
+        </p>
+      </section>
+      <section id="key-topic">
+        <h2>Key Topic</h2>
+        <p>The diverse applications and future potential of AI</p>
+      </section>
+      <section id="timetable">
+        <h2>Timetable and Speakers</h2>
+        <table>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Speaker</th>
+          </tr>
+          <tr>
+            <td>9:00am - 9:30am</td>
+            <td>Opening remarks</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>9:30am - 10:30am</td>
+            <td>Introduction to AI</td>
+            <td>Mark Anderson</td>
+          </tr>
+          <tr>
+            <td>10:30am - 11:30am</td>
+            <td>AI Applications in Healthcare</td>
+            <td>Sarah Johnson</td>
+          </tr>
+          <tr>
+            <td>11:30am - 12:30pm</td>
+            <td>Workshop 1: Developing AI Algorithms</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>12:30pm - 1:30pm</td>
+            <td>Lunch</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>1:30pm - 2:30pm</td>
+            <td>Machine Learning</td>
+            <td>Jennifer Williams</td>
+          </tr>
+          <tr>
+            <td>2:30pm - 3:30pm</td>
+            <td>Natural Language Processing</td>
+            <td>Andrew Smith</td>
+          </tr>
+          <tr>
+            <td>3:30pm - 4:30pm</td>
+            <td>Workshop 2: Implementing AI in Business</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>4:30pm - 5:30pm</td>
+            <td>AI and the Future</td>
+            <td>Rebecca Jones</td>
+          </tr>
+          <tr>
+            <td>5:30pm - 6:00pm</td>
+            <td>Closing remarks and networking</td>
+            <td>TBA</td>
+          </tr>
+        </table>
+      </section>
+      <section id="speakers">
+        <h2>Key Speakers</h2>
+        <div class="container">
+          <div class="speakers-grid">
+            <div class="speaker-card">
+              <img src="images/mark-anderson.jpeg" alt="Mark Anderson" />
+              <h3>Mark Anderson</h3>
+              <p>Introduction to AI</p>
+            </div>
+            <div class="speaker-card">
+              <img src="images/sarah-jones.jpeg" alt="Sarah Johnson" />
+              <h3>Sarah Johnson</h3>
+              <p>AI Applications in Healthcare</p>
+            </div>
+            <div class="speaker-card">
+              <img
+                src="images/jennifer-williams.jpeg"
+                alt="Jennifer Williams"
+              />
+              <h3>Jennifer Williams</h3>
+              <p>Machine Learning</p>
+            </div>
+            <div class="speaker-card">
+              <img src="images/andrew-smith.jpeg" alt="Andrew Smith" />
+              <h3>Andrew Smith</h3>
+              <p>Natural Language Processing</p>
+            </div>
+            <div class="speaker-card">
+              <img src="images/rebecca-jones.jpeg" alt="Rebecca Jones" />
+              <h3>Rebecca Jones</h3>
+              <p>AI and the Future</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="location">
+        <h2>Location</h2>
+        <p>
+          Prague City University<br />City Centre Campus<br />Hybernská 24,
+          Praha 1, Czech Republic
+        </p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10239.860332508295!2d14.4338342!3d50.0869406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94900227e7c7%3A0x72a8f977693ca34c!2z0J_RgNCw0LbRgdC60LjQuSDQutC-0LvQu9C10LTQtg!5e0!3m2!1sru!2scz!4v1685717361227!5m2!1sru!2scz"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section id="registration">
+        <h2>Registration</h2>
+        <form id="registration-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <img
+          class="pcu-logo"
+          src="https://www.praguecityuniversity.cz/hs-fs/hubfs/PCU_LOGO_web.png?width=550&name=PCU_LOGO_web.png"
+          alt="PCU Logo"
+        />
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/PragueCityUniversity"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/praguecityuniversity/"
+                >Instagram</a
+              >
+            </li>
+            <li><a href="https://twitter.com/PragueCityUni">Twitter</a></li>
+            <li>
+              <a href="https://www.linkedin.com/school/prague-city-university/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCtJM41jXN0JSVFM2pxuAzGw"
+                >YouTube</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="registration.js"></script>
+  </body>
+</html>
