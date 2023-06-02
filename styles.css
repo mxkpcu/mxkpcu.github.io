@@ -239,13 +239,13 @@ nav ul li a:hover {
 }
 
 /* Responsive design */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   h1 {
     font-size: 24px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p {
@@ -258,7 +258,12 @@ nav ul li a:hover {
   }
 
   table {
-    font-size: 14px;
+    font-size: 10px;
+  }
+
+  ul li {
+    display: block;
+    margin-bottom: 10px;
   }
 }
 
